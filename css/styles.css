@@ -269,6 +269,7 @@ img {
 .form-input {
     margin: 0;
     padding: 11px 16px 11px 38px;
+    outline: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     transition: border var(--transition-duration) var(--transition-timing-function);
@@ -281,6 +282,13 @@ img {
     padding: 11px 16px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;    
+    letter-spacing: 0.01em;    
+    color: var(--subtle-text);
 }
 .form-field textarea::placeholder {
     font-style: normal;
@@ -537,7 +545,6 @@ img {
 }
 .footer-container {
     display: flex;
-    gap: 120px;
 }
 .footer-studio {
     color: var(--light);
@@ -549,6 +556,12 @@ img {
     letter-spacing: 0.02em;
     max-width: 264px;
     color: var(--accent);
+}
+.footer-webstudio {
+    margin-right: 120px;
+}
+.footer-social {
+    margin-right: auto;
 }
 .social-heading {
     font-weight: 500;
@@ -587,7 +600,6 @@ img {
     margin-left: auto;
     position: relative;
 }
-
 .subscribe-label {
     position: absolute;
     top: 0;
